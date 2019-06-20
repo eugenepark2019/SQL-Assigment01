@@ -1,3 +1,13 @@
+Pattern Matching
+Like Operator
+%-->0 or more char
+_ -->1 char
+
+SELECT * FROM employees  WHERE firstname LIKE 'A%';
+
+
+
+
 select name,population from world where name like 'France';
 select name,population from world where name in('Sweden','Norway','Denmark');
 select name,population from world where population > '200000000';

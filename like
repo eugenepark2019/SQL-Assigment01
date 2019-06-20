@@ -1,0 +1,10 @@
+select name,population from world where name like 'France';
+select name,population from world where name in('Sweden','Norway','Denmark');
+select name,population from world where population > '200000000';
+select name from world where name like "Unite%";
+Select name from world where name like 'B%';
+Select name from world where name like '%Y';
+Select name from world where name like '%x%';
+Select name from world where name like 'c%ia';
+Select name from world where name like  '%oo%';
+select name from world where name like '%_o_o%';

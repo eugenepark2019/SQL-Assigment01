@@ -1,0 +1,3 @@
+*Write a query to pick employee id and name who are dealing with the customers in all the cities of canada
+
+SELECT employeeid,firstname,lastname,country,city FROM employees WHERE city IN(SELECT city FROM customers WHERE Country = 'Canada');

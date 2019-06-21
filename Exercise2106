@@ -1,3 +1,4 @@
+#write a SQL Query to fetch FIRST_Name from Worker Talbe Using The Alias Name AS WORKER_NAME
 select FIRST_NAME AS WORKER_NAME FROM Worker;
 select upper(FIRST_NAME) FROM Worker;
 select distinct DEPARTMENT from Worker; 
